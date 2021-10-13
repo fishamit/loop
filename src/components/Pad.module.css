@@ -1,0 +1,34 @@
+.padContainer {
+  width: 33.3%;
+  height: 33.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.pad {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.1s;
+  text-transform: uppercase;
+}
+
+.pad:hover {
+  transform: scale(1.02);
+}
+
+.pad:active {
+  transform: scale(0.97);
+}
+
+@media (max-width: 700px) {
+  h3 {
+    font-size: 0.6em;
+  }
+}

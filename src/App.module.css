@@ -1,0 +1,71 @@
+header {
+  background-color: rgb(218, 218, 218);
+  padding: 1em 0;
+}
+
+h1 {
+  margin: 0;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.padsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 90vw;
+  height: 90vw;
+}
+.looperContainer {
+  margin: 20px auto;
+  width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(32, 32, 32);
+  box-shadow: 0 0 40px rgb(32, 32, 32);
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.label {
+  color: rgb(177, 177, 177);
+  font-size: 0.7em;
+}
+.dashboard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+  .looperContainer {
+    width: 65vw;
+  }
+
+  .padsContainer {
+    width: 60vw;
+    height: 60vw;
+  }
+}
+
+button {
+  width: 50px;
+  height: 40px;
+}
+
+@media (min-width: 1000px) {
+  .looperContainer {
+    width: 45vw;
+  }
+
+  .padsContainer {
+    width: 40vw;
+    height: 40vw;
+  }
+}
